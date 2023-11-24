@@ -1,0 +1,37 @@
+{
+  "name": "Ambassadoribet",
+  "short_name": "Amb-Bet",
+  "description": "ონლაინ კაზინო",
+  "start_url": "https://www.ambassadoribet.com/",
+  "display": "standalone",
+  "background_color": "#3d0235",
+  "theme_color": "#3d0235",
+  "icons": [
+    {
+      "src": "https://images.takeshape.io/f2b70d9b-56f9-4d2d-be98-874fcbc02a46/dev/e0a34814-639d-497b-bb2e-01d9c61cf4cf/app-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "form_factor": {
+    "wide": {
+      "status_bar": "#3d0235"
+    }
+  },
+  "screenshots": [
+    {
+      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/b06e8d57-d92e-42b8-9daf-02c2e265c025/Screenshot-1.png",
+      "sizes": "320x640",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Loyalty Points"
+    },
+    {
+      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/d76de515-edc2-4f47-94de-e97fd62035ca/Screenshot-2.png",
+      "sizes": "320x640",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Live Casino"
+    }
+  ]
+}
