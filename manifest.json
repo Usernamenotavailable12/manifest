@@ -4,8 +4,8 @@
   "description": "ონლაინ კაზინო",
   "start_url": "https://www.ambassadoribet.com",
   "display": "standalone",
-  "background_color": "#3d0235",
-  "theme_color": "#3d0235",
+  "background_color": "#110610",
+  "theme_color": "#110610",
   "icons": [
     {
       "src": "https://images.takeshape.io/f2b70d9b-56f9-4d2d-be98-874fcbc02a46/dev/e0a34814-639d-497b-bb2e-01d9c61cf4cf/app-icon.png",
@@ -15,7 +15,7 @@
   ],
   "form_factor": {
     "wide": {
-      "status_bar": "#3d0235"
+      "status_bar": "#110610"
     }
   },
   "screenshots": [
