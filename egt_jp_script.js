@@ -1,66 +1,76 @@
+const TIME_INTERVAL = 10;
 const JSON_URI = 'https://stats.games.amusnet.io/jackpot_AmbassadoribetGE_GEL.json';
+let intervals = [];
 let previousJackpots = [];
 
 syncJackpots();
+
+setInterval(() => {
+    syncJackpots();
+}, TIME_INTERVAL * 1000);
 
 function syncJackpots() {
     fetch(JSON_URI, { cache: 'no-cache' })
     .then(res => res.json())
     .then(data => {
-        // If previousJackpots is empty, initialize it with the values from the current JSON data
+        intervals.forEach(interval => clearInterval(interval));
+        intervals = [];
+
         if (previousJackpots.length === 0) {
             previousJackpots = [
-                parseInt(data.currentLevelIV.toString().replace('.', '')),
-                parseInt(data.currentLevelIII.toString().replace('.', '')),
+                parseInt(data.currentLevelI.toString().replace('.', '')),
                 parseInt(data.currentLevelII.toString().replace('.', '')),
-                parseInt(data.currentLevelI.toString().replace('.', ''))
+                parseInt(data.currentLevelIII.toString().replace('.', '')),
+                parseInt(data.currentLevelIV.toString().replace('.', ''))
             ];
+        } else {
+            // Update previousJackpots with the latest data
+            previousJackpots[0] = parseInt(data.currentLevelI.toString().replace('.', ''));
+            previousJackpots[1] = parseInt(data.currentLevelII.toString().replace('.', ''));
+            previousJackpots[2] = parseInt(data.currentLevelIII.toString().replace('.', ''));
+            previousJackpots[3] = parseInt(data.currentLevelIV.toString().replace('.', ''));
         }
 
         const currentJackpots = [
-            parseInt(data.currentLevelIV.toString().replace('.', '')),
-            parseInt(data.currentLevelIII.toString().replace('.', '')),
+            parseInt(data.currentLevelI.toString().replace('.', '')),
             parseInt(data.currentLevelII.toString().replace('.', '')),
-            parseInt(data.currentLevelI.toString().replace('.', ''))
+            parseInt(data.currentLevelIII.toString().replace('.', '')),
+            parseInt(data.currentLevelIV.toString().replace('.', ''))
         ];
-
-        // Calculate the difference between the current and previous values
+        
         const diffs = currentJackpots.map((jackpot, index) => jackpot - previousJackpots[index]);
 
         const wrap = [];
         const domArr = [];
 
-        currentJackpots.forEach((jackpot, index) => {
-            // If the difference is negative, it means the value has decreased, so we use the current jackpot as previous
-            if (diffs[index] < 0) {
-                previousJackpots[index] = jackpot;
-            }
+        previousJackpots.forEach((jackpot, index) => {
+            createInitialDomElements(wrap, domArr, jackpot, index);
 
-            // Create DOM elements and update them based on the difference
-            createInitialDomElements(wrap, domArr, previousJackpots[index], index, diffs[index]);
+            const updateInterval = TIME_INTERVAL * 1000 / diffs[index]; // Calculate update interval based on difference
+            intervals.push(
+                setInterval(() => {
+                    iterateAndUpdateJackpot(previousJackpots, index, wrap, domArr);
+                }, updateInterval)
+            );
         });
-
-        // Update previousJackpots to currentJackpots for the next iteration
-        previousJackpots = currentJackpots.slice();
     });
 }
 
-function createInitialDomElements(wrap, domArr, jackpot, index, diff) {
+function createInitialDomElements(wrap, domArr, jackpot, index) {
     wrap[index] = document.getElementById('wrapp' + index);
     wrap[index].innerHTML = '';
     domArr[index] = [];
 
     jackpot.toString().split('').forEach((number, numIndex) => {
         const numDom = document.createElement('div');
-        numDom.innerHTML = parseInt(number);
+        numDom.innerHTML = parseInt(number)
         wrap[index].appendChild(numDom);
-        domArr[index].push(numDom);
+        domArr[index].push(numDom)
     
-        // Separator
         if (((jackpot.toString().length - 3) - numIndex) % 3 == 0) {
             const numDomSeparator = document.createElement('div');
             const separator = jackpot.toString().length - 3 == numIndex ? '.' : ',';
-            for(var i = 0; i < 3; i ++) {
+            for(var i = 0; i < 3; i ++){
                 const a = document.createElement('div');
                 a.innerHTML = separator;
                 numDomSeparator.appendChild(a);
@@ -68,23 +78,26 @@ function createInitialDomElements(wrap, domArr, jackpot, index, diff) {
             wrap[index].appendChild(numDomSeparator);
         }
     });
-
-    // If the difference is positive, update the displayed numbers based on the difference
-    if (diff > 0) {
-        const interval = setInterval(() => {
-            iterateAndUpdateJackpot(jackpot, index, wrap, domArr);
-        }, 60000 / diff); // Adjust the interval based on the difference
-        // Store the interval for later clearing
-        intervals.push(interval);
-    }
 }
+function iterateAndUpdateJackpot(jackpots, index, wrap, domArr) {
+    jackpots[index]++
+    const jackpot = jackpots[index];
 
-function iterateAndUpdateJackpot(jackpot, index, wrap, domArr) {
-    // Increase the jackpot value
-    jackpot++;
-    
-    // Update the DOM elements accordingly
-    domArr[index].forEach((numDom, numIndex) => {
-        numDom.innerHTML = parseInt(jackpot.toString()[numIndex]);
-    });
+    const jackLength = jackpot.toString().length;
+    if (wrap[index].children.length != jackLength + Math.floor(jackLength / 3)) {
+        createInitialDomElements(wrap, domArr, jackpot, index);
+        return;
+    }
+
+    const el = domArr[index][domArr[index].length - 1];
+
+    el.innerHTML = (parseInt(el.innerHTML) + 1) % 10;
+
+    let div = 1;
+    for (let i = domArr[index].length - 1; i >= 0; i--) {
+        div *= 10;
+        if (jackpot % div == 0) {
+            domArr[index][i].innerHTML = (parseInt(domArr[index][i].innerHTML) + 1) % 10
+        }
+    }
 }
