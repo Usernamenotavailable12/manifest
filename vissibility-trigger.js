@@ -9,7 +9,8 @@
   function toggleProviders() {
       const providers = document.querySelectorAll('.providers-list a:not(:nth-child(-n + 18))');
       const button = document.getElementById('toggleButtonShowMore');
-      const isHidden = providers[0].style.display === 'none' || providers[0].style.display === '';
+      const firstProvider = providers[0];
+      const isHidden = getComputedStyle(firstProvider).display === 'none';
 
       providers.forEach(provider => {
           provider.style.display = isHidden ? 'flex' : 'none';
