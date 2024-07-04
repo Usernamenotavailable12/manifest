@@ -6,7 +6,8 @@
         iframe.style.display = 'none';
     }
 }
-  let currentIndex = 0;
+let currentIndex = 0;
+let slideInterval;
 
 function showNextSlide() {
   const iframesJp = [
@@ -18,8 +19,15 @@ function showNextSlide() {
   iframesJp[currentIndex].style.display = 'none';
   currentIndex = (currentIndex + 1) % iframesJp.length;
   iframesJp[currentIndex].style.display = 'block';
+
+  resetInterval();
+}
+
+function resetInterval() {
+  clearInterval(slideInterval);
+  slideInterval = setInterval(showNextSlide, 10000);
 }
 
 window.showNextSlide = showNextSlide;
 
-setInterval(showNextSlide, 17000);
+resetInterval();
