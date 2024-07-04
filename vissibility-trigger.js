@@ -25,7 +25,7 @@ function showNextSlide() {
 
 function resetInterval() {
   clearInterval(slideInterval);
-  slideInterval = setInterval(showNextSlide, 10000);
+  slideInterval = setInterval(showNextSlide, 16000);
 }
 
 window.showNextSlide = showNextSlide;
