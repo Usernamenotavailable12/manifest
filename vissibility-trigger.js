@@ -6,7 +6,7 @@
         iframe.style.display = 'none';
     }
 }
-let currentIndex = 0;
+let currentIndex = 1;
 let slideInterval;
 
 function showNextSlide() {
