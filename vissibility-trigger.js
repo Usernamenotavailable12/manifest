@@ -47,26 +47,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   resetInterval();
 });
-    const searchText = "3H05RomL1m5Ad9B9XLSK";
-
-    function checkForText() {
-        const htmlContent = document.body.innerHTML;
-        if (htmlContent.includes(searchText)) {
-            document.body.classList.add("maintenance-popout");
-        } else {
-            document.body.classList.remove("maintenance-popout");
-        }
-    }
-
-    // Create an observer instance linked to the callback function
-    const observer = new MutationObserver(checkForText);
-
-    // Start observing the target node for configured mutations
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-        characterData: true
-    });
-
-    // Initial check
-    checkForText();
