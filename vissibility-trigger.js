@@ -48,29 +48,3 @@ document.addEventListener('DOMContentLoaded', () => {
   resetInterval();
 });
 
-// Function to load the YouTube widget script
-function loadYouTubeWidget() {
-  // Remove the existing script tag if it exists
-  const existingScript = document.querySelector("script[src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js']");
-  if (existingScript) {
-    existingScript.remove();
-  }
-
-  // Create a new script tag
-  const script = document.createElement("script");
-  script.src = 'https://widgets.sociablekit.com/youtube-channel-videos/widget.js';
-  script.async = true;
-  script.defer = true;
-
-  // Append the new script tag to the body
-  document.body.appendChild(script);
-}
-
-// Set up the popstate event listener
-window.addEventListener('popstate', () => {
-  // Reload the script when the user navigates back
-  loadYouTubeWidget();
-});
-
-// Initial load of the script
-loadYouTubeWidget();
