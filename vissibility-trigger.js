@@ -47,3 +47,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
   resetInterval();
 });
+
+
+  // Function to load the YouTube widget script
+function loadYoutubeWidget() {
+  // Check if the script is already present
+  if (!document.querySelector("script[src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js']")) {
+    const script = document.createElement("script");
+    script.src = "https://widgets.sociablekit.com/youtube-channel-videos/widget.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+  }
+}
+
+// Function to initialize the widget
+function initializeWidget() {
+  const widgetDiv = document.querySelector('.sk-ww-youtube-channel-videos');
+  if (widgetDiv) {
+    // Re-initialize or trigger the widget to load
+    widgetDiv.innerHTML = ''; // Clear existing content
+    widgetDiv.setAttribute('data-embed-id', '25474166'); // Re-set the embed ID if needed
+    loadYoutubeWidget(); // Load the widget script
+  }
+}
+
+// Load the widget on page load
+window.addEventListener('load', initializeWidget);
+
+// Re-load the widget when navigating back using the browser's history
+window.addEventListener('popstate', initializeWidget);
