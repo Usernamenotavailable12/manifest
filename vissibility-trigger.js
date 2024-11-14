@@ -1,4 +1,4 @@
-  function toggleMapLocation() {
+      function toggleMapLocation() {
     var iframe = document.getElementById('mapIframe');
     if (iframe.style.display === 'none') {
         iframe.style.display = 'block';
@@ -6,11 +6,12 @@
         iframe.style.display = 'none';
     }
 }
-let currentIndex = 1; // Start with the first iframe
+let currentIndex = 0; // Start with the first iframe
 let slideInterval;
 
 function showNextSlide() {
   const iframesJp = [
+    document.getElementById('iframePNG'),
     document.getElementById('iframe2Amusnet'),
     document.getElementById('iframe3New'),
     document.getElementById('iframe1Digital')
@@ -36,6 +37,7 @@ window.showNextSlide = showNextSlide;
 // Initial setup to ensure only the first iframe is visible
 document.addEventListener('DOMContentLoaded', () => {
   const iframesJp = [
+    document.getElementById('iframePNG'),
     document.getElementById('iframe2Amusnet'),
     document.getElementById('iframe3New'),
     document.getElementById('iframe1Digital')
@@ -47,4 +49,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
   resetInterval();
 });
-
