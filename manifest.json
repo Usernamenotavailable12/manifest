@@ -1,7 +1,7 @@
 {
   "name": "Ambassadoribet",
-  "short_name": "Amb-Bet",
-  "description": "ონლაინ კაზინო",
+  "short_name": "AmbaBet",
+  "description": "ამბასადორიბეთი - ონლაინ კაზინო და ტოტალიზატორი ყველაზე დიდი მოგებებით და საუკეთესო თამაშებით: სლოტები, სპორტი, ტოტალიზატორი, ონლაინ კაზინო, Betpool, კენო, სქრეჩი",
   "start_url": "https://www.ambassadoribet.com",
   "display": "standalone",
   "background_color": "#110610",
@@ -20,30 +20,30 @@
   },
   "screenshots": [
     {
-      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/2752e13a-4ca0-4ee1-9058-9aab11d1576c/Screenshot-4.png",
+      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/893f7771-791e-4ebf-9b78-003f03906f46/manifest-welcome-bonus.png",
       "sizes": "640x320",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Loyalty Points"
+      "label": "Welcome Bonus"
     },
     {
-      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/41add2f1-46e1-4c65-b49a-9a58fea99bb5/Screenshot-3.png",
+      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/ba46a965-6f4d-46ee-a86d-d8034cd11734/manifest-betpool.png",
       "sizes": "640x320",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Become The Ambassador"
+      "label": "Betpool"
     },
     {
-      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/b06e8d57-d92e-42b8-9daf-02c2e265c025/Screenshot-1.png",
+      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/64a94241-f9f6-4b6d-bbcf-01e85908763f/manifest-sport.png",
       "sizes": "320x640",
       "type": "image/png",
-      "label": "Loyalty Points"
+      "label": "Sportsbook"
     },
     {
-      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/d76de515-edc2-4f47-94de-e97fd62035ca/Screenshot-2.png",
+      "src": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/d76480a5-285b-427a-85d0-41ba53ad01ae/manifest-sport-live.png",
       "sizes": "320x640",
       "type": "image/png",
-      "label": "Live Casino"
+      "label": "Live"
     }
   ]
 }
