@@ -93,7 +93,7 @@ function displayData(data) {
 }
 
 function startSyndicatePolling() {
-  const interval = 1000; // Interval in milliseconds (e.g., 1000ms = 1 second)
+  const interval = 30000; // Interval in milliseconds (e.g., 1000ms = 1 second)
 
   // Run once initially
   const cachedData = sessionStorage.getItem('syndicateData');
@@ -113,4 +113,4 @@ window.startSyndicatePolling = startSyndicatePolling;
 // Start polling with a 3-second delay
 setTimeout(() => {
   startSyndicatePolling();
-}, 30000);
+}, 3000);
