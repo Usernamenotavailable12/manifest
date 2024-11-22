@@ -113,4 +113,4 @@ window.startSyndicatePolling = startSyndicatePolling;
 // Start polling with a 3-second delay
 setTimeout(() => {
   startSyndicatePolling();
-}, 3000);
+}, 30000);
