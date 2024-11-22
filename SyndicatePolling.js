@@ -91,7 +91,7 @@ function displayData(data) {
 }
 
 function startSyndicatePolling() {
-  const gqlFetchInterval = 60000; // 30 seconds
+  const gqlFetchInterval = 600000; // 30 seconds
   const displayInterval = 1000; // 1 second
 
   // Fetch new data from the API every 30 seconds
