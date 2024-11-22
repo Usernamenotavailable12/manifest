@@ -101,4 +101,4 @@
   // Delay the start by 3 seconds
   setTimeout(() => {
     startSyndicatePolling();
-  }, 3000);
+  }, 1000);
