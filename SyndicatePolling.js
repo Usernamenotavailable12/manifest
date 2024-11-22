@@ -98,5 +98,7 @@
   // Attach to the global `window` object to ensure availability
   window.startSyndicatePolling = startSyndicatePolling;
 
-  // Start polling immediately
-  startSyndicatePolling();
+  // Delay the start by 3 seconds
+  setTimeout(() => {
+    startSyndicatePolling();
+  }, 3000);
