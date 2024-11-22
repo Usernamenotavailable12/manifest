@@ -41,11 +41,9 @@ async function fetchSyndicateData() {
         'syndicateData',
         JSON.stringify(result.data.syndicateConnection.edges)
       );
-
-      displayData(result.data.syndicateConnection.edges);
     } else {
       console.error('Unexpected API response:', result);
-      container.innerHTML = '<p>Error fetching data</p>';
+      if (container) container.innerHTML = '<p>Error fetching data</p>';
     }
   } catch (error) {
     const container = document.getElementById('syndicate-container-box');
@@ -93,18 +91,20 @@ function displayData(data) {
 }
 
 function startSyndicatePolling() {
-  const interval = 30000; // Interval in milliseconds (e.g., 1000ms = 1 second)
+  const gqlFetchInterval = 30000; // 30 seconds
+  const displayInterval = 1000; // 1 second
 
-  // Run once initially
-  const cachedData = sessionStorage.getItem('syndicateData');
-  if (cachedData) {
-    displayData(JSON.parse(cachedData));
-  } else {
-    fetchSyndicateData();
-  }
+  // Fetch new data from the API every 30 seconds
+  fetchSyndicateData(); // Run once immediately
+  setInterval(fetchSyndicateData, gqlFetchInterval);
 
-  // Set up periodic polling
-  setInterval(fetchSyndicateData, interval);
+  // Refresh display from cached data every 1 second
+  setInterval(() => {
+    const cachedData = sessionStorage.getItem('syndicateData');
+    if (cachedData) {
+      displayData(JSON.parse(cachedData));
+    }
+  }, displayInterval);
 }
 
 // Attach to the global `window` object to ensure availability
