@@ -1,15 +1,4 @@
-let isFetchingEnabled = true; // Flag to control fetching
-
 async function fetchSyndicateData() {
-  const container = document.getElementById('syndicate-container-box');
-  if (!container) {
-    // If the element doesn't exist, stop execution and fetching
-    isFetchingEnabled = false;
-    return;
-  }
-
-  isFetchingEnabled = true; // Re-enable fetching if the element exists
-
   const query = `
     query SyndicateConnection {
       syndicateConnection(brandId: "ab") {
@@ -40,6 +29,12 @@ async function fetchSyndicateData() {
 
     const result = await response.json();
 
+    const container = document.getElementById('syndicate-container-box');
+    if (!container) {
+      // If the element doesn't exist, stop execution
+      return;
+    }
+
     if (result?.data?.syndicateConnection?.edges) {
       // Cache the data in sessionStorage
       sessionStorage.setItem(
@@ -48,9 +43,10 @@ async function fetchSyndicateData() {
       );
     } else {
       console.error('Unexpected API response:', result);
-      container.innerHTML = '<p>Error fetching data</p>';
+      if (container) container.innerHTML = '<p>Error fetching data</p>';
     }
   } catch (error) {
+    const container = document.getElementById('syndicate-container-box');
     if (container) {
       container.innerHTML = '<p>Network error. Please try again later.</p>';
     }
@@ -95,15 +91,12 @@ function displayData(data) {
 }
 
 function startSyndicatePolling() {
-  const gqlFetchInterval = 600000; // 
-  const displayInterval = 1000; // 
+  const gqlFetchInterval = 360000; // 30 seconds
+  const displayInterval = 1000; // 1 second
 
   // Fetch new data from the API every 30 seconds
-  setInterval(() => {
-    if (isFetchingEnabled) {
-      fetchSyndicateData();
-    }
-  }, gqlFetchInterval);
+  fetchSyndicateData(); // Run once immediately
+  setInterval(fetchSyndicateData, gqlFetchInterval);
 
   // Refresh display from cached data every 1 second
   setInterval(() => {
