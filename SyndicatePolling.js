@@ -1,7 +1,18 @@
 async function fetchSyndicateData() {
   const query = `
     query SyndicateConnection {
-      syndicateConnection(brandId: "ab") {
+      syndicateConnection(brandId: "ab", syndicateIds: 
+      ["d75347df2054c066af7cbdeecd82bc464b8882f3"
+      "577c95750b9919ed15ab3c18b8f7ae1d5ffad0a7"
+      "ef2338dd47ed9640e722deec1af0b52b1060b4f7"
+      "8ec6c02d360aa065d942a0a880587e10560e8ad5"
+      "f7dbca362cf45bb4d57fd35561d428f12a482346"
+      "564dfd815b8860d125c7ace5d57667a1db264c7a"
+      "5e6b16ee187cab1d552afbc725aa15cecdf22cbe"
+      "28e50df0f03b7ff643249d592029251c51f9c323"
+      "726d7d5d29120e15bd3b404b2f6b2f2f64ccfeac"
+      "e1e4be1349a5a95d75b8279516ccabbc31847c5e"]
+      ) {
         edges {
           node {
             name
@@ -19,7 +30,7 @@ async function fetchSyndicateData() {
   `;
 
   try {
-    const response = await fetch('https://api-tma1-prd.themill.tech/gql', {
+    const response = await fetch('https://www.ambassadoribet.com/_internal/gql', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
