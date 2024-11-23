@@ -10,6 +10,7 @@ let currentIndex = 0; // Start with the first iframe
 let slideInterval;
 function showNextSlide() {
   const iframesJp = [
+    document.getElementById('iframePNG'),
     document.getElementById('iframe2Amusnet'),
     document.getElementById('iframe3New'),
     document.getElementById('iframe1Digital')
@@ -29,6 +30,7 @@ window.showNextSlide = showNextSlide;
 // Initial setup to ensure only the first iframe is visible
 document.addEventListener('DOMContentLoaded', () => {
   const iframesJp = [
+    document.getElementById('iframePNG'),
     document.getElementById('iframe2Amusnet'),
     document.getElementById('iframe3New'),
     document.getElementById('iframe1Digital')
