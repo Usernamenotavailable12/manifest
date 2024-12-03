@@ -1,11 +1,3 @@
-function toggleMapLocation() {
-    var iframe = document.getElementById('mapIframe');
-    if (iframe.style.display === 'none') {
-        iframe.style.display = 'block';
-    } else {
-        iframe.style.display = 'none';
-    }
-}
 let currentIndex = 0; // Start with the first iframe
 let slideInterval;
 function showNextSlide() {
