@@ -99,6 +99,18 @@
                                         description
                                     }
                                 }
+                                ... on GiveBoxAction {
+                                    box {
+                                        name
+                                        description
+                                    }
+                                }
+                                ... on ActivateDepositBonusAction {
+                                    bonus {
+                                        name
+                                        description
+                                    }
+                                }
                             }
                         }
                     }
@@ -106,7 +118,13 @@
             }
         `;
         const data = await fetchGraphQL(mutation, { input: { userBoxId } });
-        return data.data.openUserBox.userBox.reward.action.map(action => action.bonus);
+        return data.data.openUserBox.userBox.reward.action.map(action => {
+            if (action.bonus) {
+                return { type: "BONUS", name: action.bonus.name, description: action.bonus.description };
+            } else if (action.box) {
+                return { type: "BOX", name: action.box.name, description: action.box.description };
+            }
+        });
     }
 
     async function initialize() {
@@ -115,18 +133,31 @@
         const boxesContainer = document.getElementById("boxes");
         boxesContainer.innerHTML = "";
 
+        if (activeBoxes.length === 0) {
+            const noBoxesMessage = document.createElement("div");
+            noBoxesMessage.className = "no-active-boxes-message";
+            noBoxesMessage.innerText = "";
+            noBoxesMessage.style.color = "#fff";
+            noBoxesMessage.style.fontSize = "1rem";
+            noBoxesMessage.style.textAlign = "center";
+            noBoxesMessage.style.marginTop = "20px";
+            boxesContainer.appendChild(noBoxesMessage);
+            return;
+        }
+
         for (const box of activeBoxes) {
             const boxDetails = await fetchBoxDetails(box.userBoxId);
             const boxElement = document.createElement("div");
             boxElement.className = `box ${getBoxTypeClass(boxDetails.box.type)}`;
             boxElement.innerHTML = `
-                <h3>${boxDetails.box.name}</h3>
-                <p>${boxDetails.box.description}</p>
-                <button class="button reward-button-title" onclick="handleOpenBox('${box.userBoxId}', this)"></button>
-            `;
+            <h3>${boxDetails.box.name}</h3>
+            <p>${boxDetails.box.description}</p>
+            <button class="button reward-button-title" onclick="handleOpenBox('${box.userBoxId}', this)"></button>
+        `;
             boxesContainer.appendChild(boxElement);
         }
     }
+
 
     function getBoxTypeClass(type) {
         switch (type) {
@@ -168,6 +199,6 @@
     function clearBoxes() {
         const boxesElement = document.getElementById('boxes');
         if (boxesElement) {
-            boxesElement.innerHTML = ''; 
+            boxesElement.innerHTML = '';
         }
     }
