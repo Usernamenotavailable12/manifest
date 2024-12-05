@@ -192,7 +192,7 @@
           `;
       rewardsContainer.appendChild(rewardElement);
     }
-    rewardTimeout = setTimeout(clearRewards, 4000000);
+    rewardTimeout = setTimeout(clearRewards, 5000);
   }
 
   function clearRewards() {
