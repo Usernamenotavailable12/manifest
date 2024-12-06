@@ -187,7 +187,7 @@ function displayRewards(rewards) {
     `;
         rewardsContainer.appendChild(rewardElement);
     }
-    rewardTimeout = setTimeout(clearRewards, 9000);
+    rewardTimeout = setTimeout(clearRewards, 7000);
 }
 
 function clearRewards() {
