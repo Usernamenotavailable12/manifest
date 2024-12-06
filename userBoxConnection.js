@@ -182,9 +182,8 @@ function displayRewards(rewards) {
         const rewardElement = document.createElement("div");
         rewardElement.className = "reward-item";
         rewardElement.innerHTML = `
-      <p class="reward-title"></p><strong>${reward.name}</strong>
+      <p class="reward-title"></p><strong>${reward.description}</strong>
       <div style="background: var(--${reward.contentId})" class="reward-image-id"></div>
-      <p class="reward-description"></p><p>${reward.description || "No description provided"}</p>
     `;
         rewardsContainer.appendChild(rewardElement);
     }
