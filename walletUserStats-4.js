@@ -16,7 +16,6 @@ async function fetchGraphQLBet(query, variables) {
 
 function calculateTimeInterval() {
     const now = new Date();
-
     const startOfDay = new Date(now);
     startOfDay.setHours(now.getHours() < 12 ? 0 : 12, 0, 0, 0);
 
@@ -52,7 +51,8 @@ async function showBetProgress() {
             createdAtFrom: timeInterval.from,
             createdAtTo: timeInterval.to,
         });
-        const totalBet = result.data.gameSessionStats.totalBet || 0;
+
+        const totalBet = result.data?.gameSessionStats?.[0]?.totalBet || 0;
         displayProgressBars(totalBet);
     } catch (error) {
         alert("Failed to fetch progress data.");
