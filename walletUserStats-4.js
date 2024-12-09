@@ -24,8 +24,8 @@ function calculateTimeInterval() {
     endOfDay.setHours(startOfDay.getHours() + 12);
 
     return {
-        createdAtFrom: startOfDay.toISOString(),
-        createdAtTo: endOfDay.toISOString(),
+        from: startOfDay.toISOString(),
+        to: endOfDay.toISOString(),
     };
 }
 
@@ -39,22 +39,20 @@ async function showBetProgress() {
     }
 
     const query = `
-    query GameSessionStats($userId: ID!, $createdAtFrom: DateTime, $createdAtTo: DateTime) {
-        gameSessionStats(userId: $userId, createdAtFrom: $createdAtFrom, createdAtTo: $createdAtTo) {
-            totalBet
+        query GameSessionStats($userId: ID!, $createdAtFrom: DateTime, $createdAtTo: DateTime) {
+            gameSessionStats(userId: $userId, createdAtFrom: $createdAtFrom, createdAtTo: $createdAtTo) {
+                totalBet
+            }
         }
-    }
     `;
 
     try {
-        const variables = {
+        const result = await fetchGraphQLBet(query, {
             userId: authData.userId,
-            createdAtFrom: timeInterval.createdAtFrom,
-            createdAtTo: timeInterval.createdAtTo,
-        };
-
-        const result = await fetchGraphQLBet(query, variables);
-        const totalBet = result.data.gameSessionStats?.totalBet || 0;
+            createdAtFrom: timeInterval.from,
+            createdAtTo: timeInterval.to,
+        });
+        const totalBet = result.data.gameSessionStats.totalBet || 0;
         displayProgressBars(totalBet);
     } catch (error) {
         alert("Failed to fetch progress data.");
