@@ -71,8 +71,8 @@
         progressInfo.textContent = `${totalBet}₾`;
 
         const stage1Percentage = Math.min((totalBet / 5200) * 100, 100);
-        const stage2Percentage = totalBet > 5200 ? Math.min(((totalBet - 5200) / 5200) * 100, 100) : 0;
-        const stage3Percentage = totalBet > 10200 ? Math.min(((totalBet - 10200) / 10200) * 100, 100) : 0;
+        const stage2Percentage = totalBet > 5200 ? Math.min(((totalBet - 5200) / 5000) * 100, 100) : 0;
+        const stage3Percentage = totalBet > 10200 ? Math.min(((totalBet - 10200) / 10000) * 100, 100) : 0;
 
         progressStage1.style.width = `${stage1Percentage}%`;
         progressStage1.textContent = `${stage1Percentage.toFixed(2)}%`;
