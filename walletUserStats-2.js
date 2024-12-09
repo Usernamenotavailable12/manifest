@@ -70,7 +70,7 @@ function displayProgressBars(totalBet) {
 
   progressBarContainer.style.display = "flex";
   progressInfo.style.display = "block";
-  progressInfo.textContent = `: ${totalBet}₾`;
+  progressInfo.textContent = `${totalBet}₾`;
 
   const stage1Percentage = Math.min((totalBet / 5000) * 100, 100);
   const stage2Percentage = totalBet > 5000 ? Math.min(((totalBet - 5000) / 5000) * 100, 100) : 0;
