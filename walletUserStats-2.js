@@ -68,7 +68,7 @@ function displayProgressBars(totalBet) {
       return;
   }
 
-  progressBarContainer.style.display = "block";
+  progressBarContainer.style.display = "flex";
   progressInfo.style.display = "block";
   progressInfo.textContent = `: ${totalBet}₾`;
 
