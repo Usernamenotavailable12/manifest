@@ -1,0 +1,103 @@
+    async function fetchGraphQLBet(query, variables) {
+        const authData = extractAuthDataFromCookie();
+        if (!authData) {
+            throw new Error("Unable to retrieve authorization data.");
+        }
+        const response = await fetch(API_URL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Authorization: `Bearer ${authData.accessToken}`,
+            },
+            body: JSON.stringify({ query, variables }),
+        });
+        return response.json();
+    }
+
+    function calculateTimeInterval() {
+        const now = new Date();
+        const utcOffset = 4; // UTC +4 timezone
+        now.setUTCHours(now.getUTCHours() + utcOffset);
+
+        const startOfDay = new Date(now);
+        startOfDay.setHours(now.getHours() < 12 ? 0 : 12, 0, 0, 0);
+
+        const endOfDay = new Date(startOfDay);
+        endOfDay.setHours(startOfDay.getHours() + 12);
+
+        return {
+            from: startOfDay.toISOString(),
+            to: endOfDay.toISOString()
+        };
+    }
+
+    async function showBetProgress() {
+        const timeInterval = calculateTimeInterval();
+        const authData = extractAuthDataFromCookie();
+
+        if (!authData) {
+            alert("Authorization data is missing.");
+            return;
+        }
+
+        const query = `
+                query WalletUserStats($userId: ID!) {
+                    walletUserStats(userId: $userId, from: "${timeInterval.from}", to: "${timeInterval.to}") {
+                        totalRealBet
+                    }
+                }
+            `;
+
+        try {
+            const result = await fetchGraphQLBet(query, { userId: authData.userId });
+            const totalRealBet = result.data.walletUserStats.totalRealBet || 0;
+
+            displayProgressBars(totalRealBet);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+            alert("Failed to fetch progress data.");
+        }
+    }
+
+    function displayProgressBars(totalRealBet) {
+        const progressBarContainer = document.getElementById("progressBarContainer");
+        const progressStage1 = document.getElementById("progressStage1");
+        const progressStage2 = document.getElementById("progressStage2");
+        const progressStage3 = document.getElementById("progressStage3");
+        const progressInfo = document.getElementById("progressInfo");
+
+        // Check if elements exist before modifying them
+        if (!progressBarContainer || !progressStage1 || !progressStage2 || !progressStage3 || !progressInfo) {
+            console.error("Some progress bar elements are missing in the DOM.");
+            return;
+        }
+
+        // Make progress bar container and info visible
+        progressBarContainer.style.display = "block";
+        progressInfo.style.display = "block";
+
+        // Update progress info text
+        progressInfo.textContent = `: ${totalRealBet}₾`;
+
+        // Calculate percentages for each stage
+        const stage1Percentage = Math.min((totalRealBet / 5000) * 100, 100);
+        const stage2Percentage = totalRealBet > 5000 ? Math.min(((totalRealBet - 5000) / 5000) * 100, 100) : 0;
+        const stage3Percentage = totalRealBet > 10000 ? Math.min(((totalRealBet - 10000) / 10000) * 100, 100) : 0;
+
+        // Log calculated percentages for debugging
+        console.log("Stage Percentages:", {
+            stage1: stage1Percentage,
+            stage2: stage2Percentage,
+            stage3: stage3Percentage,
+        });
+
+        // Update progress bars
+        progressStage1.style.width = `${stage1Percentage}%`;
+        progressStage1.textContent = `${stage1Percentage.toFixed(2)}%`;
+
+        progressStage2.style.width = `${stage2Percentage}%`;
+        progressStage2.textContent = `${stage2Percentage.toFixed(2)}%`;
+
+        progressStage3.style.width = `${stage3Percentage}%`;
+        progressStage3.textContent = `${stage3Percentage.toFixed(2)}%`;
+    }
