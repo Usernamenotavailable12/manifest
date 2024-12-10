@@ -68,7 +68,7 @@ function displayData(data) {
         const totalB = b.node?.stats?.totalOutcomeAmount || 0;
         return totalB - totalA; 
       })
-      .slice(0, 7) 
+      .slice(0, 6) 
       .map((item) => {
         if (!item.node) {
           return "<div>Data not available</div>";
