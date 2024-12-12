@@ -7,7 +7,7 @@
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                Authorization: Bearer ${authData.accessToken},
+                Authorization: `Bearer ${authData.accessToken}`,
             },
             body: JSON.stringify({ query, variables }),
         });
@@ -37,13 +37,13 @@
             return;
         }
 
-        const query = 
+        const query = `
         query GameSessionStats($userId: ID!, $createdAtFrom: DateTime, $createdAtTo: DateTime) {
             gameSessionStats(userId: $userId, createdAtFrom: $createdAtFrom, createdAtTo: $createdAtTo) {
                 totalBet
             }
         }
-    ;
+    `;
 
         try {
             const result = await fetchGraphQLBet(query, {
@@ -72,18 +72,18 @@
 
         progressBarContainer.style.display = "flex";
         progressInfo.style.display = "block";
-        progressInfo.textContent = ${totalBet}₾;
+        progressInfo.textContent = `${totalBet}₾`;
 
         const stage1Percentage = Math.min((totalBet / 6000) * 100, 100);
         const stage2Percentage = totalBet > 6000 ? Math.min(((totalBet - 6000) / 9000) * 100, 100) : 0;
         const stage3Percentage = totalBet > 15000 ? Math.min(((totalBet - 15000) / 15000) * 100, 100) : 0;
 
-        progressStage1.style.width = ${stage1Percentage}%;
-        progressStage1.textContent = ${stage1Percentage.toFixed(2)}%;
+        progressStage1.style.width = `${stage1Percentage}%`;
+        progressStage1.textContent = `${stage1Percentage.toFixed(2)}%`;
 
-        progressStage2.style.width = ${stage2Percentage}%;
-        progressStage2.textContent = ${stage2Percentage.toFixed(2)}%;
+        progressStage2.style.width = `${stage2Percentage}%`;
+        progressStage2.textContent = `${stage2Percentage.toFixed(2)}%`;
 
-        progressStage3.style.width = ${stage3Percentage}%;
-        progressStage3.textContent = ${stage3Percentage.toFixed(2)}%;
+        progressStage3.style.width = `${stage3Percentage}%`;
+        progressStage3.textContent = `${stage3Percentage.toFixed(2)}%`;
     }
