@@ -75,7 +75,7 @@
       const shopContainer = document.getElementById('shop-container');
       const loadButton = document.querySelector('.load-shop-button');
       loadButton.disabled = true; 
-      loadButton.textContent = 'Loading...';
+      loadButton.textContent = '';
 
       try {
         const data = await fetchGraphQL(GET_SHOP_ITEMS_QUERY);
