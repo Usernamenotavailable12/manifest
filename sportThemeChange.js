@@ -2,7 +2,7 @@
 
     function toggleSportTheme() {
         isDarkMode = !isDarkMode;
-        document.body.classList.toggle('dark-mode', isDarkMode);
+        document.body.classList.toggle('dark-mode-sport', isDarkMode);
 
         window.altenarWSDK.set({
             themeName: isDarkMode ? 'white' : 'light'
