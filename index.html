@@ -1,6 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Responsive Banner Slider with Inline Link Handling</title>
   <style>
     /* Slider container */
-    #sportsbook-banner-slider {
+    #banner-slider {
       position: relative;
       overflow: hidden;
       width: 100%;
@@ -8,7 +14,7 @@
     }
 
     /* Container for all slides */
-    .sportsbook-slides-wrapper {
+    .slides-wrapper {
       display: flex;
       transition: transform 0.5s ease-in-out;
       width: 100%;
@@ -48,10 +54,12 @@
       right: 10px;
     }
   </style>
+</head>
+<body>
   <!-- Banner slider container -->
-  <div id="sportsbook-banner-slider">
+  <div id="banner-slider">
     <!-- Slides wrapper (slides will be injected here) -->
-    <div class="sportsbook-slides-wrapper"></div>
+    <div class="slides-wrapper"></div>
     <!-- Navigation arrow buttons -->
     <button class="arrow prev">&#10094;</button>
     <button class="arrow next">&#10095;</button>
@@ -59,29 +67,20 @@
 
   <script>
     (function() {
-      const sliderContainer = document.getElementById('sportsbook-banner-slider');
-      const slidesWrapper = sliderContainer.querySelector('.sportsbook-slides-wrapper');
+      const sliderContainer = document.getElementById('banner-slider');
+      const slidesWrapper = sliderContainer.querySelector('.slides-wrapper');
       const configUrl = 'https://usernamenotavailable12.github.io/manifest/banners.json'; // Path to your JSON configuration file
       let bannersData;
       let currentSlideIndex = 0;
       let slideInterval;
-      let autoSlideTime = 5000; // Default auto-slide time (milliseconds)
+      let autoSlideTime = 5000; // Default auto-slide time (in milliseconds)
 
-      // Custom link switching function
-      function switchCurnetUrl(navurl) {
-        let url = window.location.href;
-        let updatedUrl = url.replace(/(\/(ka|ru|en|tr))(\/.*)?$/, `$1/${navurl}`);
-        // If the regex didn't change the URL, fall back to direct navigation
-        if (url === updatedUrl) {
-          window.location.href = navurl;
-        } else {
-          window.location.href = updatedUrl;
-        }
-      }
+      // NOTE: The function switchCurnetUrl(navurl) is assumed to be globally available on your site.
+      // It will be called when a banner is clicked.
 
       // Fetch the banner configuration JSON file with no-cache
       function fetchBannerConfig() {
-        // Append a timestamp to avoid cache and set fetch option for no-cache
+        // Append a timestamp query parameter to avoid caching
         fetch(configUrl + '?_=' + new Date().getTime(), { cache: "no-cache" })
           .then(response => response.json())
           .then(data => {
@@ -89,10 +88,10 @@
             if (data.autoSlideInterval) {
               autoSlideTime = data.autoSlideInterval;
             }
-            // Remember the current slide index (if any)
+            // Save the current slide index so we can attempt to restore it
             const previousIndex = currentSlideIndex;
             buildSlider(data.banners);
-            // Restore the slide index if possible, otherwise default to 0
+            // Restore the slide index if possible; otherwise, default to 0
             if (previousIndex < slidesWrapper.children.length) {
               currentSlideIndex = previousIndex;
             } else {
@@ -114,30 +113,27 @@
         slidesWrapper.innerHTML = '';
 
         banners.forEach((banner) => {
-          // Create slide container
+          // Create the slide container
           const slide = document.createElement('div');
           slide.className = 'slide';
 
-          // When the slide is clicked, use the custom link logic if a link is provided
-          slide.addEventListener('click', function(event) {
-            // Do nothing if the click came from an arrow button
-            if (event.target.closest('.arrow')) return;
-            if (banner.link) {
-              switchCurnetUrl(banner.link);
-            }
-          });
+          // Add an inline onclick attribute if a link is provided.
+          // This calls the global switchCurnetUrl() function on your site.
+          if (banner.link) {
+            slide.setAttribute("onclick", "switchCurnetUrl(\"" + banner.link + "\")");
+          }
 
           // Create a <picture> element for responsive images
           const picture = document.createElement('picture');
 
-          // Mobile image: add if provided
+          // Add mobile image if provided
           if (banner.mobile_image) {
             const sourceMobile = document.createElement('source');
             sourceMobile.media = "(max-width: 767px)";
             sourceMobile.srcset = banner.mobile_image;
             picture.appendChild(sourceMobile);
           }
-          // Desktop image (default)
+          // Add desktop image (default)
           if (banner.desktop_image) {
             const img = document.createElement('img');
             img.src = banner.desktop_image;
@@ -152,7 +148,7 @@
         });
       }
 
-      // Show a specific slide by updating the transform property of the slides wrapper
+      // Show a specific slide by updating the transform property
       function showSlide(index) {
         const slidesCount = slidesWrapper.children.length;
         if (slidesCount === 0) return;
@@ -193,7 +189,10 @@
 
       // Initial fetch of banner configuration
       fetchBannerConfig();
-      // Periodically re-fetch banner configuration every 10 seconds
+      // Periodically re-fetch the banner configuration every 10 seconds
       setInterval(fetchBannerConfig, 10000);
     })();
   </script>
+</body>
+</html>
+
