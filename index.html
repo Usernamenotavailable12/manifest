@@ -1,0 +1,199 @@
+  <style>
+    /* Slider container */
+    #sportsbook-banner-slider {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      max-height: 500px; /* Adjust as needed */
+    }
+
+    /* Container for all slides */
+    .sportsbook-slides-wrapper {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 100%;
+    }
+
+    /* Each slide */
+    .slide {
+      flex: 0 0 100%;
+      width: 100%;
+      position: relative;
+    }
+
+    /* Ensure images fill the slide */
+    .slide picture,
+    .slide img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Arrow buttons */
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      z-index: 2;
+      font-size: 18px;
+    }
+    .arrow.prev {
+      left: 10px;
+    }
+    .arrow.next {
+      right: 10px;
+    }
+  </style>
+  <!-- Banner slider container -->
+  <div id="sportsbook-banner-slider">
+    <!-- Slides wrapper (slides will be injected here) -->
+    <div class="sportsbook-slides-wrapper"></div>
+    <!-- Navigation arrow buttons -->
+    <button class="arrow prev">&#10094;</button>
+    <button class="arrow next">&#10095;</button>
+  </div>
+
+  <script>
+    (function() {
+      const sliderContainer = document.getElementById('sportsbook-banner-slider');
+      const slidesWrapper = sliderContainer.querySelector('.sportsbook-slides-wrapper');
+      const configUrl = 'https://usernamenotavailable12.github.io/manifest/banners.json'; // Path to your JSON configuration file
+      let bannersData;
+      let currentSlideIndex = 0;
+      let slideInterval;
+      let autoSlideTime = 5000; // Default auto-slide time (milliseconds)
+
+      // Custom link switching function
+      function switchCurnetUrl(navurl) {
+        let url = window.location.href;
+        let updatedUrl = url.replace(/(\/(ka|ru|en|tr))(\/.*)?$/, `$1/${navurl}`);
+        // If the regex didn't change the URL, fall back to direct navigation
+        if (url === updatedUrl) {
+          window.location.href = navurl;
+        } else {
+          window.location.href = updatedUrl;
+        }
+      }
+
+      // Fetch the banner configuration JSON file with no-cache
+      function fetchBannerConfig() {
+        // Append a timestamp to avoid cache and set fetch option for no-cache
+        fetch(configUrl + '?_=' + new Date().getTime(), { cache: "no-cache" })
+          .then(response => response.json())
+          .then(data => {
+            bannersData = data;
+            if (data.autoSlideInterval) {
+              autoSlideTime = data.autoSlideInterval;
+            }
+            // Remember the current slide index (if any)
+            const previousIndex = currentSlideIndex;
+            buildSlider(data.banners);
+            // Restore the slide index if possible, otherwise default to 0
+            if (previousIndex < slidesWrapper.children.length) {
+              currentSlideIndex = previousIndex;
+            } else {
+              currentSlideIndex = 0;
+            }
+            showSlide(currentSlideIndex);
+            startAutoSlide();
+          })
+          .catch(error => console.error('Error loading banner config:', error));
+      }
+
+      // Build the slider using the banners array from JSON
+      function buildSlider(banners) {
+        if (!banners || banners.length === 0) {
+          console.warn('No banners provided in the configuration.');
+          return;
+        }
+        // Clear any existing slides
+        slidesWrapper.innerHTML = '';
+
+        banners.forEach((banner) => {
+          // Create slide container
+          const slide = document.createElement('div');
+          slide.className = 'slide';
+
+          // When the slide is clicked, use the custom link logic if a link is provided
+          slide.addEventListener('click', function(event) {
+            // Do nothing if the click came from an arrow button
+            if (event.target.closest('.arrow')) return;
+            if (banner.link) {
+              switchCurnetUrl(banner.link);
+            }
+          });
+
+          // Create a <picture> element for responsive images
+          const picture = document.createElement('picture');
+
+          // Mobile image: add if provided
+          if (banner.mobile_image) {
+            const sourceMobile = document.createElement('source');
+            sourceMobile.media = "(max-width: 767px)";
+            sourceMobile.srcset = banner.mobile_image;
+            picture.appendChild(sourceMobile);
+          }
+          // Desktop image (default)
+          if (banner.desktop_image) {
+            const img = document.createElement('img');
+            img.src = banner.desktop_image;
+            img.alt = banner.alt || 'Banner';
+            picture.appendChild(img);
+          } else {
+            console.warn('No desktop image provided for banner:', banner);
+          }
+
+          slide.appendChild(picture);
+          slidesWrapper.appendChild(slide);
+        });
+      }
+
+      // Show a specific slide by updating the transform property of the slides wrapper
+      function showSlide(index) {
+        const slidesCount = slidesWrapper.children.length;
+        if (slidesCount === 0) return;
+
+        // Wrap-around logic for the slide index
+        if (index >= slidesCount) {
+          currentSlideIndex = 0;
+        } else if (index < 0) {
+          currentSlideIndex = slidesCount - 1;
+        } else {
+          currentSlideIndex = index;
+        }
+        // Slide the wrapper horizontally
+        slidesWrapper.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+      }
+
+      // Start the auto-sliding functionality
+      function startAutoSlide() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(() => {
+          showSlide(currentSlideIndex + 1);
+        }, autoSlideTime);
+      }
+
+      // Pause auto-slide on mouse enter and resume on mouse leave
+      sliderContainer.addEventListener('mouseenter', () => clearInterval(slideInterval));
+      sliderContainer.addEventListener('mouseleave', () => startAutoSlide());
+
+      // Left/right arrow button events
+      document.querySelector('.arrow.prev').addEventListener('click', function(event) {
+        event.stopPropagation();
+        showSlide(currentSlideIndex - 1);
+      });
+      document.querySelector('.arrow.next').addEventListener('click', function(event) {
+        event.stopPropagation();
+        showSlide(currentSlideIndex + 1);
+      });
+
+      // Initial fetch of banner configuration
+      fetchBannerConfig();
+      // Periodically re-fetch banner configuration every 10 seconds
+      setInterval(fetchBannerConfig, 10000);
+    })();
+  </script>
