@@ -1,0 +1,18 @@
+{
+    "autoSlideInterval": 5000,
+    "banners": [
+      {
+        "desktop_image": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/9960147a-e5ab-4cc7-98d0-caf72068398b/betlive%20champions%20league-min.jpg?auto=format%2Ccompress",
+        "mobile_image": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/c07a46c7-2b74-4772-b448-f4fff769c898/vs%20champions%20copy%20meore%20copy-min.jpg?auto=format%2Ccompress",
+        "link": "page1", 
+        "alt": "Banner 1 Description"
+      },
+      {
+        "desktop_image": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/a8f67878-5800-4978-9274-503fa1c2e9cf/FA%20cup%20web%2007.02.2025-min.jpg?auto=format%2Ccompress",
+        "mobile_image": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/0d167749-4d51-4391-b6e8-8368d8940a46/FA%20cup%20Mobile%2007.02.2025-min.jpg?auto=format%2Ccompress",
+        "link": "page2",
+        "alt": "Banner 2 Description"
+      }
+    ]
+  }
+  
