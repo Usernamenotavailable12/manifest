@@ -69,11 +69,11 @@
     (function() {
       const sliderContainer = document.getElementById('banner-slider');
       const slidesWrapper = sliderContainer.querySelector('.slides-wrapper');
-      const configUrl = 'https://usernamenotavailable12.github.io/manifest/banners.json'; // Path to your JSON configuration file
+      const configUrl = 'https://usernamenotavailable12.github.io/manifest/banners.json'; // JSON configuration file URL
       let bannersData;
       let currentSlideIndex = 0;
       let slideInterval;
-      let autoSlideTime = 5000; // Default auto-slide time (in milliseconds)
+      let autoSlideTime = 5000; // Default auto-slide time (milliseconds)
 
       // NOTE: The function switchCurnetUrl(navurl) is assumed to be globally available on your site.
       // It will be called when a banner is clicked.
@@ -99,7 +99,7 @@
             }
             showSlide(currentSlideIndex);
             startAutoSlide();
-            // Update iframe size after building the slider.
+            // Update the parent's CSS variable for height
             updateIframeSize();
           })
           .catch(error => console.error('Error loading banner config:', error));
@@ -195,14 +195,19 @@
       setInterval(fetchBannerConfig, 10000);
     })();
 
-    // Function to update and send the iframe size to the parent
+    // Function to update the parent's CSS variable for iframe height
     function updateIframeSize() {
+      // Calculate the current document's scrollHeight (you can adjust if needed)
       var height = document.documentElement.scrollHeight;
-      var width  = document.documentElement.scrollWidth;
-      parent.postMessage({ type: "resize", height: height, width: width }, "*");
+      try {
+        // Set a CSS variable on the parent's document element
+        parent.document.documentElement.style.setProperty('--iframe-current-height', height + 'px');
+      } catch (e) {
+        console.error("Could not update parent's CSS variable:", e);
+      }
     }
 
-    // Update size on load and on resize
+    // Update the size on load and when the window resizes
     window.addEventListener("load", updateIframeSize);
     window.addEventListener("resize", updateIframeSize);
   </script>
