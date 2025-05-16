@@ -1,4 +1,25 @@
 {
-  "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
-  "altText": "Sample image description"
+  "isOpen": true,
+  "locales": {
+    "en": {
+      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
+      "link": "SLOTS",
+      "linkType": "navigate"
+    },
+    "ka": {
+      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
+      "link": "SLOTS",
+      "linkType": "navigate"
+    },
+    "ru": {
+      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
+      "link": "SLOTS",
+      "linkType": "navigate"
+    },
+    "tr": {
+      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
+      "link": "SLOTS",
+      "linkType": "navigate"
+    }
+  }
 }
