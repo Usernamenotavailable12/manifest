@@ -3,24 +3,24 @@
   "maxDisplays": 10,
   "locales": {
     "en": {
-      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
-      "link": "https://example.com/en",
+      "imageUrl": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3db345e4-f932-40cf-b0b3-59be78623187/1276%20X%20720%20winner.jpg?auto=format%2Ccompress",
+      "link": "sportsbook/event/12624416",
       "linkType": "href"
     },
     "ka": {
-      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
-      "link": "ka_page",
-      "linkType": "navigate"
+      "imageUrl": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3db345e4-f932-40cf-b0b3-59be78623187/1276%20X%20720%20winner.jpg?auto=format%2Ccompress",
+      "link": "sportsbook/event/12624416",
+      "linkType": "href"
     },
     "ru": {
-      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
-      "link": "https://example.com/ru",
+      "imageUrl": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3db345e4-f932-40cf-b0b3-59be78623187/1276%20X%20720%20winner.jpg?auto=format%2Ccompress",
+      "link": "sportsbook/event/12624416",
       "linkType": "href"
     },
     "tr": {
-      "imageUrl": "https://www.ambassadoribet.com/_internal/ts-images/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/7dbfe722-9cd6-499d-b829-75cb1fcaa46c/mobka.webp",
-      "link": "tr_page",
-      "linkType": "navigate"
+      "imageUrl": "https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/3db345e4-f932-40cf-b0b3-59be78623187/1276%20X%20720%20winner.jpg?auto=format%2Ccompress",
+      "link": "sportsbook/event/12624416",
+      "linkType": "href"
     }
   }
 }
