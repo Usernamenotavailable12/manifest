@@ -1,0 +1,2956 @@
+[
+  {
+    "slug": "live-dynamic-european-roulette",
+    "studio": "AMUSNET",
+    "name": "Live Dynamic European Roulette",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-dynamic-roulette-120x",
+    "studio": "AMUSNET",
+    "name": "Live Dynamic Roulette 120x",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-american-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live American Roulette",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-baccarat-control-squeeze",
+    "studio": "EVOLUTION",
+    "name": "Live Baccarat Control Squeeze",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-squeeze",
+    "studio": "EVOLUTION",
+    "name": "Live Baccarat Squeeze",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-b",
+    "studio": "EVOLUTION",
+    "name": "Live Baccarat B",
+    "minBet": 2,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-baccarat-c",
+    "studio": "EVOLUTION",
+    "name": "Live Baccarat C",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-a",
+    "studio": "EVOLUTION",
+    "name": "Live Baccarat A",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-party",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Party",
+    "minBet": 10,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-j",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack J",
+    "minBet": 20,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-no-commission-speed-baccarat-a",
+    "studio": "EVOLUTION",
+    "name": "Live No Commission Speed Baccarat A",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-no-commission-baccarat",
+    "studio": "EVOLUTION",
+    "name": "Live No Commission Baccarat",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-salon-prive-baccarat-a",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Baccarat A",
+    "minBet": 2000,
+    "maxBet": 20000
+  },
+  {
+    "slug": "live-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Roulette",
+    "minBet": 2,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-salon-prive-baccarat-b",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Baccarat B",
+    "minBet": 2000,
+    "maxBet": 20000
+  },
+  {
+    "slug": "live-salon-prive-baccarat-c",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Baccarat C",
+    "minBet": 2000,
+    "maxBet": 20000
+  },
+  {
+    "slug": "live-speed-baccarat-a",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat A",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-salon-prive-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Roulette",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "auto-speed-roulette-live",
+    "studio": "EVOLUTION",
+    "name": "Live Auto Speed Roulette",
+    "minBet": 1,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-speed-baccarat-b",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat B",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-c",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat C",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-d",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat D",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-f",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat F",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-e",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat E",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-g",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat G",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-i",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat I",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-h",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat H",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-j",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat J",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-french-roulette-gold",
+    "studio": "EVOLUTION",
+    "name": "Live French Roulette Gold",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "auto-roulette-live",
+    "studio": "EVOLUTION",
+    "name": "Live Auto Roulette",
+    "minBet": 0.2,
+    "maxBet": 20000.0
+  },
+  {
+    "slug": "auto-roulette-vip-live",
+    "studio": "EVOLUTION",
+    "name": "Live Auto Roulette VIP",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "auto-roulette-la-partage",
+    "studio": "EVOLUTION",
+    "name": "Live Auto Roulette La Partage",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-roulette-vip",
+    "studio": "EVOLUTION",
+    "name": "Live Roulette VIP",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-lobby",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Lobby",
+    "minBet": 20,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-baccarat-lobby",
+    "studio": "EVOLUTION",
+    "name": "Live Baccarat Lobby",
+    "minBet": 2,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-roulette-lobby",
+    "studio": "EVOLUTION",
+    "name": "Live Roulette Lobby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-fan-tan",
+    "studio": "EVOLUTION",
+    "name": "Live Fan Tan",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-cash-or-crash",
+    "studio": "EVOLUTION",
+    "name": "Live Cash or Crash",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "bac-bo",
+    "studio": "EVOLUTION",
+    "name": "Live Bac Bo",
+    "minBet": 2,
+    "maxBet": 10000
+  },
+  {
+    "slug": "live-dead-or-alive-saloon",
+    "studio": "EVOLUTION",
+    "name": "Live Dead or Alive Saloon",
+    "minBet": 0.2,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-football-studio-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Football Studio Roulette",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-gonzos-treasure-map",
+    "studio": "EVOLUTION",
+    "name": "Live Gonzo's Treasure Map",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-video-poker",
+    "studio": "EVOLUTION",
+    "name": "Live Video Poker",
+    "minBet": 0.2,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-prosperity-tree-baccarat",
+    "studio": "EVOLUTION",
+    "name": "Live Prosperity Tree Baccarat",
+    "minBet": 2,
+    "maxBet": 10000
+  },
+  {
+    "slug": "live-xxxtreme-lightning-baccarat",
+    "studio": "EVOLUTION",
+    "name": "Live XXXtreme Lightning Baccarat",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "classic-speed-blackjack-73",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 73",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "classic-speed-blackjack-74",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 74",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "classic-speed-blackjack-72",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 72",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-5",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 5",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-free-bet-vip-blackjack-b",
+    "studio": "EVOLUTION",
+    "name": "Live Free Bet VIP Blackjack B",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-bonsai-speed-baccarat-b",
+    "studio": "EVOLUTION",
+    "name": "Live Bonsai Speed Baccarat B",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-vip-44",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 44",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-s",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat S",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-classic-speed-blackjack-88",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 88",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-vip-13",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 13",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-10",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 10",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-20",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 20",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-gamma",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP Gamma",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-vip-8",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 8",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-vip-41",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 41",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-7",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 7",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-free-bet-vip-blackjack-a",
+    "studio": "EVOLUTION",
+    "name": "Live Free Bet VIP Blackjack A",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-vip-35",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 35",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-vip-blackjack-r",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack R",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-vip-alpha",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP Alpha",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-2",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 2",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-4",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 4",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-25",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 25",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-vip-blackjack-h",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack H",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-r",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat R",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-2",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 2",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-v",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat V",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-19",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 19",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-22",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 22",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-3",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 3",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-42",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 42",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-14",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 14",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-43",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 43",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-28",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 28",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-speed-baccarat-k",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat K",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-bonsai-speed-baccarat-c",
+    "studio": "EVOLUTION",
+    "name": "Live Bonsai Speed Baccarat C",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-m",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat M",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-p",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat P",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-bonsai-speed-baccarat-a",
+    "studio": "EVOLUTION",
+    "name": "Live Bonsai Speed Baccarat A",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-x",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat X",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-9",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 9",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-3",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 3",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-34",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 34",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-12",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 12",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-11",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 11",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-6",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 6",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-q",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat Q",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-10",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 10",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-beta",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP Beta",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-vip-16",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 16",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-8",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 8",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-w",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat W",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-vip-blackjack-e",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack E",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-vip-12",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 12",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-speed-baccarat-z",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat Z",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-6",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 6",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-vip-7",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP 7",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-speed-baccarat-t",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat T",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-1",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Baccarat 1",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-lightning-storm",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Storm",
+    "minBet": 0.1,
+    "maxBet": 20000
+  },
+  {
+    "slug": "live-lightning-ball",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Ball",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-lightning-sic-bo",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Sic Bo",
+    "minBet": 0.2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-balloon-race",
+    "studio": "EVOLUTION",
+    "name": "Live Balloon Race",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-infinite-bet-stacker-blackjack",
+    "studio": "EVOLUTION",
+    "name": "Live Infinite Bet Stacker Blackjack",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-super-sic-bo",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Super Sic Bo",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-easy-blackjack",
+    "studio": "EVOLUTION",
+    "name": "Live Easy Blackjack",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-poker-lobby",
+    "studio": "EVOLUTION",
+    "name": "Live Poker Lobby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-game-show-lobby",
+    "studio": "EVOLUTION",
+    "name": "Live Game Show Lobby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-crazy-balls",
+    "studio": "EVOLUTION",
+    "name": "Live Crazy Balls",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-always-8-baccarat",
+    "studio": "EVOLUTION",
+    "name": "Live Always 8 Baccarat",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-race-track",
+    "studio": "EVOLUTION",
+    "name": "Live Race Track",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-war",
+    "studio": "EVOLUTION",
+    "name": "Live War",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-marble-race",
+    "studio": "EVOLUTION",
+    "name": "Live Marble Race",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-fireball-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Fireball Roulette",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-super-color-game",
+    "studio": "EVOLUTION",
+    "name": "Live Super Color Game",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-dream-catcher",
+    "studio": "EVOLUTION",
+    "name": "Live Dream Catcher",
+    "minBet": 0.4,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-lightning-baccarat",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Baccarat",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-dragon-tiger",
+    "studio": "EVOLUTION",
+    "name": "Live Dragon Tiger",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-lightning-dice",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Dice",
+    "minBet": 0.2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-immersive-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Immersive Roulette",
+    "minBet": 1,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-super-sic-bo",
+    "studio": "EVOLUTION",
+    "name": "Live Super Sic Bo",
+    "minBet": 0.4,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-classic-17",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 17",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-18",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 18",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-20",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 20",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-22",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 22",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-24",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 24",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-25",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 25",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-26",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 26",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-29",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 29",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-35",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 35",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-30",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 30",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-48",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 48",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-47",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 47",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-46",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 46",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-43",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 43",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-44",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 44",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-45",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 45",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-54",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 54",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-53",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 53",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-56",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 56",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-57",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 57",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-55",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 55",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-58",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 58",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-49",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 49",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-50",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 50",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-52",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 52",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-51",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 51",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-59",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 59",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-64",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 64",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-61",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 61",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-60",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 60",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-63",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 63",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-62",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 62",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-7",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 7",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-69",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 69",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-65",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 65",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-8",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 8",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-68",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 68",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-66",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 66",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-fortune-vip",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Fortune VIP",
+    "minBet": 600,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-blackjack-classic-67",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 67",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-classic-9",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Classic 9",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-grand-vip",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Grand VIP",
+    "minBet": 1000,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-blackjack-silver-a",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver A",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-silver-b",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver B",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-diamond-vip",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Diamond VIP",
+    "minBet": 2000,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-blackjack-platinum-vip",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Platinum VIP",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-silver-f",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver F",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-vip-a",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP A",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-vip-b",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP B",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-silver-g",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver G",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-silver-d",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver D",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-vip-g",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP G",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-f",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP F",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-silver-e",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver E",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-silver-c",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack Silver C",
+    "minBet": 150,
+    "maxBet": 15000
+  },
+  {
+    "slug": "live-blackjack-vip-d",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP D",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-vip-c",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP C",
+    "minBet": 500,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-blackjack-vip-e",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP E",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-m",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP M",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-o",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP O",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-j",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP J",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-n",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP N",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-i",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP I",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-k",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP K",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-l",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP L",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-s",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP S",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-v",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP V",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-u",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP U",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-t",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP T",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-z",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP Z",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-x",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP X",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-p",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP P",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-vip-q",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP Q",
+    "minBet": 200,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-vip-r",
+    "studio": "EVOLUTION",
+    "name": "Live Blackjack VIP R",
+    "minBet": 100,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-classic-speed-blackjack-1",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 1",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-2",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 2",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-4",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 4",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-3",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 3",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-5",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 5",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-9",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 9",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-12",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 12",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-11",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 11",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-10",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 10",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-6",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 6",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-7",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 7",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-classic-speed-blackjack-8",
+    "studio": "EVOLUTION",
+    "name": "Live Classic Speed Blackjack 8",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-power-blackjack",
+    "studio": "EVOLUTION",
+    "name": "Live Power Blackjack",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-infinite-blackjack",
+    "studio": "EVOLUTION",
+    "name": "Live Infinite Blackjack",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-salon-prive-blackjack-a",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Blackjack A",
+    "minBet": 2000,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-salon-prive-blackjack-d",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Blackjack D",
+    "minBet": 3000,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-salon-prive-blackjack-b",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Blackjack B",
+    "minBet": 2000,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-salon-prive-blackjack-c",
+    "studio": "EVOLUTION",
+    "name": "Live Salon Prive Blackjack C",
+    "minBet": 2000,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-speed-vip-blackjack-a",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack A",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-vip-blackjack-d",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack D",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-vip-blackjack-b",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack B",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-vip-blackjack-c",
+    "studio": "EVOLUTION",
+    "name": "Live Speed VIP Blackjack C",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-2-hand-casino-holdem",
+    "studio": "EVOLUTION",
+    "name": "Live 2 Hand Casino Hold'em",
+    "minBet": 1,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-mega-ball",
+    "studio": "EVOLUTION",
+    "name": "Live Mega Ball",
+    "minBet": 0.2,
+    "maxBet": 200
+  },
+  {
+    "slug": "live-speed-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Speed Roulette",
+    "minBet": 1,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-caribbean-stud-poker",
+    "studio": "EVOLUTION",
+    "name": "Live Caribbean Stud Poker",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-crazy-time",
+    "studio": "EVOLUTION",
+    "name": "Live Crazy Time",
+    "minBet": 0.2,
+    "maxBet": 10000
+  },
+  {
+    "slug": "live-double-ball-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Double Ball Roulette",
+    "minBet": 0.4,
+    "maxBet": 3200
+  },
+  {
+    "slug": "live-free-bet-blackjack",
+    "studio": "EVOLUTION",
+    "name": "Live Free Bet Blackjack",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-football-studio",
+    "studio": "EVOLUTION",
+    "name": "Live Football Studio",
+    "minBet": 2,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-grand-roulette-hippodrome-casino",
+    "studio": "EVOLUTION",
+    "name": "Live Grand Roulette: Hippodrome Casino Dual Play",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-lightning-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Roulette",
+    "minBet": 0.4,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-instant-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Instant Roulette",
+    "minBet": 0.4,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-ultimate-texas-holdem",
+    "studio": "EVOLUTION",
+    "name": "Live Ultimate Texas Hold'em",
+    "minBet": 1,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-texas-holdem-bonus-poker",
+    "studio": "EVOLUTION",
+    "name": "Live Texas Hold'em Bonus Poker",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-three-card-poker",
+    "studio": "EVOLUTION",
+    "name": "Live Three Card Poker",
+    "minBet": 1,
+    "maxBet": 500
+  },
+  {
+    "slug": "live-lightning-blackjack",
+    "studio": "EVOLUTION",
+    "name": "Live Lightning Blackjack",
+    "minBet": 2,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-xxxtreme-lightning-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live XXXtreme Lightning Roulette",
+    "minBet": 0.4,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-crazy-coin-flip",
+    "studio": "EVOLUTION",
+    "name": "Live Crazy Coin Flip",
+    "minBet": 0.2,
+    "maxBet": 3000
+  },
+  {
+    "slug": "live-extra-chilli-epic-spins",
+    "studio": "EVOLUTION",
+    "name": "Live Extra Chilli Epic Spins",
+    "minBet": 1,
+    "maxBet": 50
+  },
+  {
+    "slug": "live-funky-time",
+    "studio": "EVOLUTION",
+    "name": "Live Funky Time",
+    "minBet": 0.2,
+    "maxBet": 10000
+  },
+  {
+    "slug": "live-red-door-roulette",
+    "studio": "EVOLUTION",
+    "name": "Live Red Door Roulette",
+    "minBet": 0.4,
+    "maxBet": 1000
+  },
+  {
+    "slug": "live-crazy-time-a",
+    "studio": "EVOLUTION",
+    "name": "Live Crazy Time A",
+    "minBet": 0.2,
+    "maxBet": 10000
+  },
+  {
+    "slug": "live-crazy-pachinko",
+    "studio": "EVOLUTION",
+    "name": "Live Crazy Pachinko",
+    "minBet": 0.2,
+    "maxBet": 200
+  },
+  {
+    "slug": "live-stock-market",
+    "studio": "EVOLUTION",
+    "name": "Live Stock Market",
+    "minBet": 0.2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-monopoly",
+    "studio": "EVOLUTION",
+    "name": "Live Monopoly",
+    "minBet": 0.2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-monopoly-big-baller",
+    "studio": "EVOLUTION",
+    "name": "Live Monopoly Big Baller",
+    "minBet": 0.2,
+    "maxBet": 8000
+  },
+  {
+    "slug": "live-mega-roulette-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Mega Roulette",
+    "minBet": 0.2,
+    "maxBet": 20000.0
+  },
+  {
+    "slug": "live-mega-wheel-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Mega Wheel",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-auto-roulette-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Auto-Roulette",
+    "minBet": 0.2,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-mega-sic-bo-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Mega Sic Bo",
+    "minBet": 0.2,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-andar-bahar-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Andar Bahar",
+    "minBet": 0.2,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-baccarat-1-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat 1",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-lobby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat Lobby",
+    "minBet": 2,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-baccarat-2-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat\u00a02",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-3-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat\u00a03",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-5-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat\u00a05",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-7-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat\u00a07",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-baccarat-6-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat\u00a06",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-1-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 1 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-10-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 10 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-11-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 11 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-baccarat-8-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Baccarat\u00a08",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-blackjack-12-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 12 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-15-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 15 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-16-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 16 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-18-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 18 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-17-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 17 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-14-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 14 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-19-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 19 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-22-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 22 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-24-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 24 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-21-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 21 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-23-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 23 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-20-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 20 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-2-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 2 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-25-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 25 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-26-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 26 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-28-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 28 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-29-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 29 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-3-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 3 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-27-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 27 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-30-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 30 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-31-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 31 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-32-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 32 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-6-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 6 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-5-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 5 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-7-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 7 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-8-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 8 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-4-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 4 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-9-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 9 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-34-club-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 34 - Club",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-33-club-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 33 - Club",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-35-club-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 35 - Club",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-36-club-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 36 - Club",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-roulette-3-macao-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Roulette 3 - Macao",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-lobby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack Lobby",
+    "minBet": 20,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-dragon-tiger-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Dragon Tiger",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-one-blackjack-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live ONE Blackjack",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-one-blackjack-2-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live ONE Blackjack 2",
+    "minBet": 2,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-roulette-1-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Roulette 1 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-roulette-10-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Roulette 10 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-roulette-2-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Roulette 2",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-roulette-lobby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Roulette Lobby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-game-shows-lobby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Game Shows Lobby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-3-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 3",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-5-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 5",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-6-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 6",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-7-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 7",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-8-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 8",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-9-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 9",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-1-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 1",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-2-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 2",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-roulette-1-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Roulette 1",
+    "minBet": 1,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack-38-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 38 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-37-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 37 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-40-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 40 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-41-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 41 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-39-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 39 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-47-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 47 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-49-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 49 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-48-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 48 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-46-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 46 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-50-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 50 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-42-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 42 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-43-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 43 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-44-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 44 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-10-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 10",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-45-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 45 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-baccarat-11-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 11",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-13-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 13",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-12-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 12",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-14-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 14",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-speed-baccarat-15-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Baccarat 15",
+    "minBet": 4,
+    "maxBet": 5000
+  },
+  {
+    "slug": "live-blackjack-51-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 51 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-super-8-baccarat",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Super 8 Baccarat",
+    "minBet": 0.4,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-fortune-6-baccarat",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Fortune 6 Baccarat",
+    "minBet": 0.4,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-no-commission-speed-baccarat-2-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live No Commission Speed Baccarat 2",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-no-commission-baccarat-1-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live No Commission Baccarat 1",
+    "minBet": 0.8,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-power-up-roulette-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live PowerUp Roulette",
+    "minBet": 0.2,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-speed-roulette-2-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Roulette 2",
+    "minBet": 1,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-blackjack52-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 52 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack53-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 53 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack54-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 54 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack55-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 55 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack56-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 56 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-6-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 6 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-7-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 7 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-8-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 8 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-9-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 9 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-10-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 10 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-11-azure",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 11 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-12-azure",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 12 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-14-azure",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 14 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-57-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 57 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-58-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 58 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-59-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 59 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-60-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 60 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-61-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 61 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-62-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 62 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-63-azure-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 63 - Azure",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-71-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 71 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-15-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 15 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-16-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 16 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-17-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 17 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-72-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 72 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-73-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 73 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-mega-baccarat",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Mega Baccarat",
+    "minBet": 0.4,
+    "maxBet": 6000.0
+  },
+  {
+    "slug": "live-speed-blackjack-18-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 18 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-74-ruby-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 74 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-auto-roulette-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Auto Roulette",
+    "minBet": 1,
+    "maxBet": 4000
+  },
+  {
+    "slug": "live-vip-blackjack-6-emerald-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 6 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-20-emerald-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 20 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-19-emerald-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 19 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-blackjack-8-emerald-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 8 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vegas-ball-bonanza-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Vegas Ball Bonanza",
+    "minBet": 0.2,
+    "maxBet": 1800.0
+  },
+  {
+    "slug": "live-speed-blackjack-22-emerald-pp",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 22 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-auto-mega-roulette",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Auto Mega Roulette",
+    "minBet": 0.2,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-speed-blackjack-30-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 30 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-29-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 29 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-24-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 24 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-26-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 26 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-blackjack-11-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 11 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-27-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 27 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-25-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 25 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-blackjack-10-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 10 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-roulette-the-club",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Roulette - The Club",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-blackjack-12-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 12 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-blackjack-9-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 9 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-speed-blackjack-28-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Speed Blackjack 28 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-prive-lounge-blackjack-3",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Blackjack 3",
+    "minBet": 2000.0,
+    "maxBet": 200000.0
+  },
+  {
+    "slug": "live-prive-lounge-blackjack-4",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Blackjack 4",
+    "minBet": 2000.0,
+    "maxBet": 200000.0
+  },
+  {
+    "slug": "live-prive-lounge-blackjack-2",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Blackjack 2",
+    "minBet": 2000.0,
+    "maxBet": 200000.0
+  },
+  {
+    "slug": "live-prive-lounge-blackjack-1",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Blackjack 1",
+    "minBet": 2000.0,
+    "maxBet": 200000.0
+  },
+  {
+    "slug": "live-prive-lounge-blackjack-5",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Blackjack 5",
+    "minBet": 2000.0,
+    "maxBet": 200000.0
+  },
+  {
+    "slug": "live-sic-bo",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Sic Bo",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-lucky-6-roulette",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Lucky 6 Roulette",
+    "minBet": 0.2,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "prive-lounge-baccarat-4",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Baccarat 4",
+    "minBet": 2000.0,
+    "maxBet": 300000.0
+  },
+  {
+    "slug": "prive-lounge-baccarat-2",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Baccarat 2",
+    "minBet": 2000.0,
+    "maxBet": 300000.0
+  },
+  {
+    "slug": "prive-lounge-baccarat-3",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Baccarat 3",
+    "minBet": 2000.0,
+    "maxBet": 300000.0
+  },
+  {
+    "slug": "prive-lounge-baccarat-1",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Baccarat 1",
+    "minBet": 2000.0,
+    "maxBet": 300000.0
+  },
+  {
+    "slug": "prive-lounge-baccarat-5",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Prive Lounge Baccarat 5",
+    "minBet": 2000.0,
+    "maxBet": 300000.0
+  },
+  {
+    "slug": "blackjack-78-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 78 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "blackjack-77-ruby",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 77 - Ruby",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "blackjack-75-azure",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 75 - Azure",
+    "minBet": 50,
+    "maxBet": 2000
+  },
+  {
+    "slug": "blackjack-76-azure",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 76 - Azure",
+    "minBet": 50,
+    "maxBet": 2000
+  },
+  {
+    "slug": "live-vip-blackjack-13-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 13 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-vip-blackjack-14-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live VIP Blackjack 14 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-79-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 79 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-80-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 80 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjack-81-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Blackjack 81 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-bet-behind-pro-blackjack",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live Bet Behind Pro Blackjack",
+    "minBet": 2.0,
+    "maxBet": 10000.0
+  },
+  {
+    "slug": "live-blackjackx-26-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 26 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-12-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 12 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-23-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 23 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-30-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 30 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-29-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 29 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-27-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 27 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-13-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 13 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-22-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 22 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-28-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 28 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  },
+  {
+    "slug": "live-blackjackx-11-emerald",
+    "studio": "PRAGMATIC_PLAY",
+    "name": "Live BlackjackX 11 - Emerald",
+    "minBet": "",
+    "maxBet": ""
+  }
+]
